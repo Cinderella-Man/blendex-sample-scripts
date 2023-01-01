@@ -9,9 +9,12 @@ file_contents = ""
 
 def redraw():
     global file_contents
-    deleteAllObjects()
-    exec(compile(open(filename).read(), filename, 'exec'))
-    return 2
+    data = open(filename).read()
+    if data != file_contents:
+      file_contents = data
+      deleteAllObjects()
+      exec(compile(data, filename, 'exec'))
+    return 0.2
 
 
 def deleteAllObjects():
