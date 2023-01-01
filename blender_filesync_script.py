@@ -3,7 +3,7 @@
 
 import bpy
 
-filename = "/backup/projects/blendex_playground/test.py"
+filename = "/backup/projects/blendex_playground/blendex-sample-scripts/solar-system/output.py"
 
 file_contents = ""
 

@@ -1,10 +1,8 @@
-# Cosmos
+# Solar system
 
 ```
-mix run lib/cosmos.ex
+mix run lib/solar_system.ex
 ```
-
-
 
 ```
   spacing = 2.2

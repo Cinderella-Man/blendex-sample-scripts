@@ -1,6 +1,6 @@
 defmodule SolarSystem do
   @moduledoc """
-  Documentation for `Cosmos`.
+  Documentation for `Solar System`.
   """
 
   @doc """
@@ -25,11 +25,7 @@ defmodule SolarSystem do
     end)
     |> List.flatten()
 
-    Blendex.send_commands(data)
-  end
-
-  def quit() do
-    Blendex.send_commands([:quit])
+    Blendex.generate_commands(data)
   end
 
   defp rand() do
@@ -37,5 +33,4 @@ defmodule SolarSystem do
   end
 end
 
-Cosmos.draw_graphic()
-Cosmos.quit()
+SolarSystem.draw_graphic()
