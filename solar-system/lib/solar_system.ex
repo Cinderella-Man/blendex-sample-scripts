@@ -1,4 +1,4 @@
-defmodule Cosmos do
+defmodule SolarSystem do
   @moduledoc """
   Documentation for `Cosmos`.
   """
