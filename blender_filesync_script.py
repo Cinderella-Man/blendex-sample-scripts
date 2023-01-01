@@ -1,4 +1,5 @@
 # Application Timers (bpy.app.timers) docs: https://docs.blender.org/api/current/bpy.app.timers.html
+# Executing external scripts: https://docs.blender.org/api/current/info_tips_and_tricks.html#executing-external-scripts
 
 import bpy
 
